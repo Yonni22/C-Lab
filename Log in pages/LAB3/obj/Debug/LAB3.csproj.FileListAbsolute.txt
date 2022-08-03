@@ -1,0 +1,23 @@
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\bin\Debug\LAB3.exe.config
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\bin\Debug\LAB3.exe
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\bin\Debug\LAB3.pdb
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\obj\Debug\LAB3.csproj.AssemblyReference.cache
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\obj\Debug\LAB3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\obj\Debug\LAB3.Form1.resources
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\obj\Debug\LAB3.Properties.Resources.resources
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\obj\Debug\LAB3.csproj.GenerateResource.cache
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\obj\Debug\LAB3.csproj.CoreCompileInputs.cache
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\obj\Debug\LAB3.exe
+C:\Users\Yoni\Source\Repos\LAB3\LAB3\obj\Debug\LAB3.pdb
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\bin\Debug\LAB3.exe.config
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\bin\Debug\LAB3.exe
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\bin\Debug\LAB3.pdb
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.csproj.AssemblyReference.cache
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.Form1.resources
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.Properties.Resources.resources
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.csproj.GenerateResource.cache
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.csproj.CoreCompileInputs.cache
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.exe
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.pdb
+C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.Login.resources
