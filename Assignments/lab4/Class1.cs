@@ -8,6 +8,7 @@ namespace lab4
 {
     internal class Class1
     {
+        private static List<Class1> product = new List<Class1>();  
         public string number { get; set; }
         public string inventory { get; set; }
         public string objectname { get; set; }
@@ -17,9 +18,14 @@ namespace lab4
 
         public void save()
         {
-            Console.WriteLine("saved");
+            //Console.WriteLine("saved");
+            product.Add(this);
         }
-            
+        public static List<Class1> getall()
+        {
+            return product;
+        }
+
 
 
 
