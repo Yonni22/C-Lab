@@ -21,3 +21,12 @@ C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.csproj.CoreCo
 C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.exe
 C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.pdb
 C:\Users\Yoni\Source\Repos\Assignment Products\LAB3\obj\Debug\LAB3.Login.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Log in pages\LAB3\obj\Debug\LAB3.csproj.AssemblyReference.cache
+C:\Users\Yoni\Documents\GitHub\C-Lab\Log in pages\LAB3\obj\Debug\LAB3.csproj.SuggestedBindingRedirects.cache
+C:\Users\Yoni\Documents\GitHub\C-Lab\Log in pages\LAB3\obj\Debug\LAB3.Form1.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Log in pages\LAB3\obj\Debug\LAB3.Login.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Log in pages\LAB3\obj\Debug\LAB3.Properties.Resources.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Log in pages\LAB3\obj\Debug\LAB3.csproj.GenerateResource.cache
+C:\Users\Yoni\Documents\GitHub\C-Lab\Log in pages\LAB3\obj\Debug\LAB3.csproj.CoreCompileInputs.cache
+C:\Users\Yoni\Documents\GitHub\C-Lab\Log in pages\LAB3\obj\Debug\LAB3.exe
+C:\Users\Yoni\Documents\GitHub\C-Lab\Log in pages\LAB3\obj\Debug\LAB3.pdb
