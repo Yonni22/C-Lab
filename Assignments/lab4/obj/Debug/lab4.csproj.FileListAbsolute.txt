@@ -32,3 +32,6 @@ C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.pdb
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\bin\Debug\lab4.exe.config
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\bin\Debug\lab4.exe
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\bin\Debug\lab4.pdb
+C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Display.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Form3.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Search.resources

@@ -228,7 +228,7 @@
             this.DisplaysTable.Name = "DisplaysTable";
             this.DisplaysTable.RowHeadersWidth = 62;
             this.DisplaysTable.RowTemplate.Height = 28;
-            this.DisplaysTable.Size = new System.Drawing.Size(1187, 208);
+            this.DisplaysTable.Size = new System.Drawing.Size(1187, 255);
             this.DisplaysTable.TabIndex = 16;
             // 
             // radioButton1
@@ -245,7 +245,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(1017, 205);
+            this.radioButton2.Location = new System.Drawing.Point(877, 245);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(150, 24);
             this.radioButton2.TabIndex = 18;
@@ -298,7 +298,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1200, 692);
+            this.ClientSize = new System.Drawing.Size(1169, 588);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.Chk);
             this.Controls.Add(this.radioButton2);
@@ -322,6 +322,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "form";
             this.Text = "Form2";
+            this.Load += new System.EventHandler(this.form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.DisplaysTable)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.O)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.N)).EndInit();

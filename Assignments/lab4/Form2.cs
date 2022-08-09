@@ -153,5 +153,10 @@ namespace lab4
         {
             
         }
+
+        private void form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -25,7 +25,12 @@ namespace lab4
         {
             return product;
         }
+        public static Class1 findone(string name)
+        {
 
+            return product.Find(p => p.number == name);
+
+        }
 
 
 
