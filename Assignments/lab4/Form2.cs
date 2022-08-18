@@ -14,7 +14,7 @@ namespace lab4
     public partial class form : Form
     {
         public string username { get; set; }
-        public form(String user)
+        public form(string user)
         {
             InitializeComponent();
             label7.Text = user;

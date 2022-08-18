@@ -23,7 +23,6 @@ C:\Users\user\Desktop\x\c#\lab4(Csharp lab assignment 4)\lab4\obj\Debug\lab4.pdb
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.csproj.AssemblyReference.cache
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.csproj.SuggestedBindingRedirects.cache
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Form1.resources
-C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.form.resources
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Properties.Resources.resources
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.csproj.GenerateResource.cache
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.csproj.CoreCompileInputs.cache
@@ -35,3 +34,7 @@ C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\bin\Debug\lab4.pdb
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Display.resources
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Form3.resources
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Search.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Menu.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.UserControl5.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.form.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.UpdateProducts.resources

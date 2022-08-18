@@ -30,11 +30,11 @@
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.productsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.catagoriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.addProductsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateProductsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.searchProductsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.dispalyProductsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.catagoriesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -63,38 +63,38 @@
             this.productsToolStripMenuItem.Text = "Products ";
             this.productsToolStripMenuItem.Click += new System.EventHandler(this.productsToolStripMenuItem_Click);
             // 
-            // catagoriesToolStripMenuItem
-            // 
-            this.catagoriesToolStripMenuItem.Name = "catagoriesToolStripMenuItem";
-            this.catagoriesToolStripMenuItem.Size = new System.Drawing.Size(112, 29);
-            this.catagoriesToolStripMenuItem.Text = "Catagories";
-            // 
             // addProductsToolStripMenuItem
             // 
             this.addProductsToolStripMenuItem.Name = "addProductsToolStripMenuItem";
-            this.addProductsToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.addProductsToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
             this.addProductsToolStripMenuItem.Text = "Add products";
             this.addProductsToolStripMenuItem.Click += new System.EventHandler(this.addProductsToolStripMenuItem_Click);
             // 
             // updateProductsToolStripMenuItem
             // 
             this.updateProductsToolStripMenuItem.Name = "updateProductsToolStripMenuItem";
-            this.updateProductsToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.updateProductsToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
             this.updateProductsToolStripMenuItem.Text = "Update products";
             // 
             // searchProductsToolStripMenuItem
             // 
             this.searchProductsToolStripMenuItem.Name = "searchProductsToolStripMenuItem";
-            this.searchProductsToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.searchProductsToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
             this.searchProductsToolStripMenuItem.Text = "Search products";
             this.searchProductsToolStripMenuItem.Click += new System.EventHandler(this.searchProductsToolStripMenuItem_Click);
             // 
             // dispalyProductsToolStripMenuItem
             // 
             this.dispalyProductsToolStripMenuItem.Name = "dispalyProductsToolStripMenuItem";
-            this.dispalyProductsToolStripMenuItem.Size = new System.Drawing.Size(270, 34);
+            this.dispalyProductsToolStripMenuItem.Size = new System.Drawing.Size(248, 34);
             this.dispalyProductsToolStripMenuItem.Text = "Dispaly products";
             this.dispalyProductsToolStripMenuItem.Click += new System.EventHandler(this.dispalyProductsToolStripMenuItem_Click);
+            // 
+            // catagoriesToolStripMenuItem
+            // 
+            this.catagoriesToolStripMenuItem.Name = "catagoriesToolStripMenuItem";
+            this.catagoriesToolStripMenuItem.Size = new System.Drawing.Size(112, 29);
+            this.catagoriesToolStripMenuItem.Text = "Catagories";
             // 
             // Form3
             // 
@@ -106,6 +106,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form3";
             this.Text = "Form3";
+            this.Load += new System.EventHandler(this.Form3_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

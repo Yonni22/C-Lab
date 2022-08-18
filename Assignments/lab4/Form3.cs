@@ -63,5 +63,10 @@ namespace lab4
            s.MdiParent = this;
            s.Show();
         }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -36,11 +36,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(546, 108);
+            this.label1.Location = new System.Drawing.Point(532, 112);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(106, 20);
+            this.label1.Size = new System.Drawing.Size(164, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Enter number";
+            this.label1.Text = "Enter product number";
             // 
             // textSearch
             // 
@@ -48,6 +48,7 @@
             this.textSearch.Name = "textSearch";
             this.textSearch.Size = new System.Drawing.Size(144, 26);
             this.textSearch.TabIndex = 1;
+            this.textSearch.TextChanged += new System.EventHandler(this.textSearch_TextChanged);
             // 
             // button1
             // 

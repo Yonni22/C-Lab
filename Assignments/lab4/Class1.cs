@@ -14,7 +14,9 @@ namespace lab4
         public string objectname { get; set; }
         public string count { get; set; }
         public string price { get; set; }
-        public bool isavaliable { get; set; }   
+        public bool isavaliable { get; set; }
+        public string productType { get; set; }
+        public DateTime date { get; set; }
 
         public void save()
         {
@@ -31,6 +33,18 @@ namespace lab4
             return product.Find(p => p.number == name);
 
         }
+        public static void updateProduct(Class1 editedProduct, Class1 productTobeEdited)
+        {
+            for (int i = 0; i < product.Count; i++)
+            {
+                if (product[i] == productTobeEdited)
+                {
+                    product[i] = editedProduct;
+                }
+            }
+
+        }
+
 
 
 

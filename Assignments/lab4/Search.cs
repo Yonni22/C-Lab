@@ -23,21 +23,25 @@ namespace lab4
 
             if (product == null)
             {
-                MessageBox.Show("nothing is entered");
+                MessageBox.Show("Product not found");
             }
             else
             {
-                MessageBox.Show($"product foiound ! \n nme: {product.objectname}");
+                MessageBox.Show($"Product found! \n name: {product.objectname}");
             }
 
-            
 
 
-            
+
+
+
+        }
+        private void Search_Load(object sender, EventArgs e)
+        {
 
         }
 
-        private void Search_Load(object sender, EventArgs e)
+        private void textSearch_TextChanged(object sender, EventArgs e)
         {
 
         }

@@ -54,12 +54,14 @@
             this.P = new System.Windows.Forms.ErrorProvider(this.components);
             this.I = new System.Windows.Forms.ErrorProvider(this.components);
             this.C = new System.Windows.Forms.ErrorProvider(this.components);
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             ((System.ComponentModel.ISupportInitialize)(this.DisplaysTable)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.O)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.N)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.P)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.I)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.C)).BeginInit();
+            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -108,10 +110,10 @@
             // 
             // inventory
             // 
-            this.inventory.Location = new System.Drawing.Point(617, 87);
+            this.inventory.Location = new System.Drawing.Point(617, 84);
             this.inventory.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.inventory.Name = "inventory";
-            this.inventory.Size = new System.Drawing.Size(382, 26);
+            this.inventory.Size = new System.Drawing.Size(282, 26);
             this.inventory.TabIndex = 4;
             this.inventory.TextChanged += new System.EventHandler(this.textBox1_TextChanged_1);
             // 
@@ -212,7 +214,7 @@
             // isavalaible
             // 
             this.isavalaible.AutoSize = true;
-            this.isavalaible.Location = new System.Drawing.Point(877, 396);
+            this.isavalaible.Location = new System.Drawing.Point(684, 408);
             this.isavalaible.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.isavalaible.Name = "isavalaible";
             this.isavalaible.Size = new System.Drawing.Size(113, 24);
@@ -234,7 +236,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(877, 205);
+            this.radioButton1.Location = new System.Drawing.Point(6, 25);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(82, 24);
             this.radioButton1.TabIndex = 17;
@@ -245,7 +247,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(877, 245);
+            this.radioButton2.Location = new System.Drawing.Point(6, 55);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(150, 24);
             this.radioButton2.TabIndex = 18;
@@ -294,15 +296,25 @@
             // 
             this.C.ContainerControl = this;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.radioButton1);
+            this.groupBox1.Controls.Add(this.radioButton2);
+            this.groupBox1.Location = new System.Drawing.Point(684, 272);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(200, 100);
+            this.groupBox1.TabIndex = 21;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Type";
+            // 
             // form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1169, 588);
+            this.ClientSize = new System.Drawing.Size(1022, 678);
+            this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.Chk);
-            this.Controls.Add(this.radioButton2);
-            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.DisplaysTable);
             this.Controls.Add(this.isavalaible);
             this.Controls.Add(this.cancel);
@@ -319,6 +331,7 @@
             this.Controls.Add(this.add);
             this.Controls.Add(this.number);
             this.Controls.Add(this.label1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.Name = "form";
             this.Text = "Form2";
@@ -329,6 +342,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.P)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.I)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.C)).EndInit();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -361,5 +376,6 @@
         private System.Windows.Forms.ErrorProvider P;
         private System.Windows.Forms.ErrorProvider I;
         private System.Windows.Forms.ErrorProvider C;
+        private System.Windows.Forms.GroupBox groupBox1;
     }
 }
