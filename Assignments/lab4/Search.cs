@@ -25,6 +25,13 @@ namespace lab4
             {
                 MessageBox.Show("nothing is entered");
             }
+            else
+            {
+                MessageBox.Show($"product foiound ! \n nme: {product.objectname}");
+            }
+
+            
+
 
             
 
