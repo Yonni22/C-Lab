@@ -58,5 +58,10 @@ namespace lab4
         {
 
         }
+
+        private void UserControl5_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

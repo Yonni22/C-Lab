@@ -38,3 +38,4 @@ C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Menu.resour
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.UserControl5.resources
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.form.resources
 C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.UpdateProducts.resources
+C:\Users\Yoni\Documents\GitHub\C-Lab\Assignments\lab4\obj\Debug\lab4.Form4.resources
