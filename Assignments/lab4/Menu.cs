@@ -34,11 +34,13 @@ namespace lab4
                 card.ProductQuantity = Convert.ToInt32(item.count);
                 card.ProductInvNum = Convert.ToInt32(item.inventory);
                 card.ProductPrice = Convert.ToInt32(item.price);
-
+                card.num = Convert.ToInt32(item.number);
+                card.dates = item.date;
                 card.Click += (object sender1, EventArgs eve) =>
                 {
-                    MessageBox.Show( item.objectname + "\n " + item.inventory + "\n" + item.count + "\n" + item.price);
+                      MessageBox.Show( "Name: " + item.objectname + "\nInventory: " + item.inventory + "\nQuantity: " + item.count + "\nPrice: " + item.price + "\nNumber: " + item.number + "\nDate: " + item.date);
 
+                    
                 };
                 card.Show();
                 flowLayoutPanel1.Controls.Add(card);

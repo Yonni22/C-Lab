@@ -19,6 +19,20 @@ namespace lab4
             get { return product_Name; }
             set { product_Name = value; Namel.Text += value; }
         }
+        private DateTime date_;
+
+        public DateTime dates
+        {
+            get { return date_; }
+            set { date_ = value; Date.Text += value; }
+        }
+        private int number_;
+
+        public int num
+        {
+            get { return number_; }
+            set { number_ = value; Num.Text += value; }
+        }
 
         private int Product_InvNum;
 
@@ -60,6 +74,11 @@ namespace lab4
         }
 
         private void UserControl5_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click_1(object sender, EventArgs e)
         {
 
         }
