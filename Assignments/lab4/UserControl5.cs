@@ -19,13 +19,9 @@ namespace lab4
             get { return product_Name; }
             set { product_Name = value; Namel.Text += value; }
         }
-        private DateTime date_;
+      
 
-        public DateTime dates
-        {
-            get { return date_; }
-            set { date_ = value; Date.Text += value; }
-        }
+        
         private int number_;
 
         public int num
@@ -34,14 +30,7 @@ namespace lab4
             set { number_ = value; Num.Text += value; }
         }
 
-        private int Product_InvNum;
-
-        public int ProductInvNum
-        {
-            get { return Product_InvNum; }
-            set { Product_InvNum = value; Inventoryl.Text += value; }
-        }
-
+        
         private int Product_Quantity;
 
         public int ProductQuantity
@@ -50,17 +39,13 @@ namespace lab4
             set { Product_Quantity = value; Quantityl.Text += value; }
         }
 
-        private double product_Price;
-
-        public double ProductPrice
-        {
-            get { return product_Price; }
-            set { product_Price = value; Pricel.Text += value; }
-        }
-
         public UserControl5()
         {
             InitializeComponent();
+        }
+        public Panel Description
+        {
+            get { return panel1; }
         }
 
         private void panel1_Paint(object sender, PaintEventArgs e)

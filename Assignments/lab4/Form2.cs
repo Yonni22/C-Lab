@@ -28,7 +28,7 @@ namespace lab4
         private void button1_Click(object sender, EventArgs e)
         {
 
-            Regex regex = new Regex("^[a-z]{2,5}$"); // $ - end of string //Regex regex = new Regex(@"^[a-z] {2}$");
+            Regex regex = new Regex("^[a-z]{2,9}$"); // $ - end of string //Regex regex = new Regex(@"^[a-z] {2}$");
             bool result = regex.IsMatch(objectname.Text);                                            // the @ is to check email, its outside b/c its needed // to check .com use . outside then ()
             //string g = result.ToString();
             if (result == false)

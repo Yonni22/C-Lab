@@ -32,18 +32,31 @@ namespace lab4
                 UserControl5 card = new UserControl5();
                 card.Product = item.objectname;
                 card.ProductQuantity = Convert.ToInt32(item.count);
-                card.ProductInvNum = Convert.ToInt32(item.inventory);
-                card.ProductPrice = Convert.ToInt32(item.price);
                 card.num = Convert.ToInt32(item.number);
-                card.dates = item.date;
-                card.Click += (object sender1, EventArgs eve) =>
-                {
-                      MessageBox.Show( "Name: " + item.objectname + "\nInventory: " + item.inventory + "\nQuantity: " + item.count + "\nPrice: " + item.price + "\nNumber: " + item.number + "\nDate: " + item.date);
-
-                    
-                };
+                
+                //card.Click += (object sender1, EventArgs eve) =>
+                //{
+                  //    MessageBox.Show( "Name: " + item.objectname + "\nInventory: " + item.inventory + "\nQuantity: " + item.count + "\nPrice: " + item.price + "\nNumber: " + item.number + "\nDate: " + item.date);
+                                   
+                //};
                 card.Show();
                 flowLayoutPanel1.Controls.Add(card);
+                card.Description.DoubleClick += (object sender1, EventArgs eve) =>
+                {
+                    this.flowLayoutPanel1.Controls.Clear();
+
+                    Detail description = new Detail();
+                    description.name = item.objectname;
+                    description.numb = item.number;
+                    description.ProductInvNum = Convert.ToInt32(item.inventory);
+                    description.ProductDate = item.date;
+                    
+                    description.count = Convert.ToInt32(item.count);
+                    description.price = Convert.ToInt32(item.price);
+                    description.Show();
+                    flowLayoutPanel1.Controls.Add(description);
+
+                };
             }
         }
 
