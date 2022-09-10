@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
 namespace lab4
 {
@@ -22,6 +23,30 @@ namespace lab4
         {
             //Console.WriteLine("saved");
             product.Add(this);
+            try
+            {
+
+                String connectionstring = @"Data Source=DESKTOP-I9UD49J\SQLEXPRESS; Initial Catalog=csharp; Integrated Security=true";
+                SqlConnection con = new SqlConnection(connectionstring);
+                con.Open();
+
+                string query = "insert into student(id,fname,lname,_address,_date,gender) values(@id,@fn,@ln,@address,@date,@gender);";//"insert into student values ('ss' ,'ddd');";
+                SqlCommand com = new SqlCommand(query, con);
+
+                com.Parameters.AddWithValue("@number", number);
+                com.Parameters.AddWithValue("@inventory", inventory);
+                com.Parameters.AddWithValue("@objectname", objectname);
+                com.Parameters.AddWithValue("@quantity", count);
+                com.Parameters.AddWithValue("@date", date);
+                com.Parameters.AddWithValue("@price", price);
+                //var result = com.ExecuteReader();
+                com.ExecuteNonQuery();
+              
+            }
+            catch
+            {
+                Console.WriteLine("error");
+            };
         }
         public static List<Class1> getall()
         {
